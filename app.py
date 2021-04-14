@@ -1,11 +1,11 @@
 #Saving a file
 
+from flask import Flask,request,url_for
+from flask_pymongo import PyMongo
 
-
-
-
-
-
+app = flask.Flask(_name_)
+app.config['MONGO_URI'] = 'mongodb+srv://aj_15:**********@cluster0.pdcrn.mongodb.net/aj?retryWrites=true&w=majority'
+mongo = PyMongo(app)
 
 @app.route('/')
 def index():
