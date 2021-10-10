@@ -1,4 +1,4 @@
-# tactlabs-Internship-Assignment
+# tactlabs-internship-assignment
 
 Collect 10 medium articles in frontend and store it in mongodb.
 
